@@ -1,0 +1,242 @@
+{
+  "operator": "北京晓目标科技有限公司",
+  "email": "lusanyuss@gmail.com",
+  "languages": {
+    "en": {
+      "name": "Video Downloader",
+      "hub": "Privacy & terms",
+      "intro": "How this version handles data, its usage terms and how to contact us.",
+      "documents": {
+        "privacy": {
+          "title": "Privacy policy",
+          "summary": "Where data is processed, retained and removed.",
+          "sections": [
+            {
+              "title": "1. Provider and local processing",
+              "paragraphs": [
+                "Video Downloader is provided by 北京晓目标科技有限公司. Privacy contact: lusanyuss@gmail.com.",
+                "The app analyzes supported media links on your device and stores downloaded videos locally. Websites and media servers receive the network requests required to display pages, analyze links and transfer files. Their own cookies and privacy policies apply."
+              ]
+            },
+            {
+              "title": "2. Browser sessions and history",
+              "paragraphs": [
+                "Android extraction and downloading use matching site cookies and the browser user agent from this app’s browser. Session snapshots and recent website addresses and titles are encrypted on this device with a system-managed key. Private temporary cookie files are deleted after each engine operation; interrupted files are cleared on the next initialization. Other browsers’ sessions are not exported."
+              ]
+            },
+            {
+              "title": "3. Optional identity",
+              "paragraphs": [
+                "The current Android app offers optional Google sign-in. Google provides the account identifier, name and email for display on this device. Google credentials remain managed by its SDK. The app does not request Gmail, Drive or contacts access, receive your Google password, or send identity tokens to its own server. Explicit sign-out preferences use device secure storage. iOS sign-in is not enabled in this release."
+              ]
+            },
+            {
+              "title": "4. Services and purchases",
+              "paragraphs": [
+                "We do not operate an account server, cloud synchronization or an order server. Browsing history, links and videos are not uploaded to our own service. Analytics, ads and crash reporting are not enabled. Membership sales are currently disabled. If store purchases become available, prices and processing will be disclosed before payment; the store handles payment details and the app verifies store rights on the device. App identity and store identity are independent."
+              ]
+            },
+            {
+              "title": "5. Retention and your choices",
+              "paragraphs": [
+                "Local records remain until you remove them or uninstall the app, subject to operating-system storage and backup behavior. Clear recent searches from Home and remove videos or tasks in the app’s storage controls. Sign out from Account or revoke Google authorization in Privacy & access. This does not delete downloaded files or your Google Account. Export important files before uninstalling."
+              ]
+            },
+            {
+              "title": "6. Support and third-party processing",
+              "paragraphs": [
+                "If you email lusanyuss@gmail.com, we receive the information you choose to include and use it to handle the request. Avoid credentials and unnecessary private files. You may ask about or request deletion of support correspondence. Google services, visited websites, the operating system and this static website host process their own network and security information under their policies. This website contains no scripts, analytics or collection forms."
+              ]
+            }
+          ]
+        },
+        "terms": {
+          "title": "Terms of use",
+          "summary": "Service scope, usage rules and current billing status.",
+          "sections": [
+            {
+              "title": "1. Service",
+              "paragraphs": [
+                "Use the app only for media you own or have permission to process, save and share. Respect the source service’s terms. Links, supported formats and device capabilities can change."
+              ]
+            },
+            {
+              "title": "2. Website restrictions and identity",
+              "paragraphs": [
+                "YouTube, SoundCloud and Spotify analysis and downloading are blocked. Other websites may impose access and copyright restrictions. Sign-in is optional; it does not grant content rights, sign you into websites, synchronize files or transfer purchases between stores. Unsupported, protected, live or private media may be unavailable."
+              ]
+            },
+            {
+              "title": "3. Local files",
+              "paragraphs": [
+                "Keep backups of important files. Processing may change size, quality, metadata or compatibility. Review the result before discarding originals. Local results are not a cloud backup."
+              ]
+            },
+            {
+              "title": "4. Charges and availability",
+              "paragraphs": [
+                "Membership sales are currently disabled. No paid membership is sold through this release. Store availability and platform capabilities depend on their actual status; publication of these documents does not represent store approval."
+              ]
+            },
+            {
+              "title": "5. Contact and updates",
+              "paragraphs": [
+                "For support or privacy requests, contact lusanyuss@gmail.com. We update these documents when the service or data processing changes."
+              ]
+            }
+          ]
+        },
+        "deletion": {
+          "title": "Manage your data",
+          "summary": "Manage local data, sign-in access and support requests.",
+          "sections": [
+            {
+              "title": "Local data",
+              "paragraphs": [
+                "There is no app-operated cloud account database. Use in-app controls to remove local records and app-owned files; export important results before uninstalling."
+              ]
+            },
+            {
+              "title": "Access and requests",
+              "paragraphs": [
+                "Sign out from Account and revoke Google access in Privacy & access. This does not delete downloaded files or the Google Account.",
+                "Contact lusanyuss@gmail.com for privacy requests and support correspondence."
+              ]
+            }
+          ]
+        },
+        "support": {
+          "title": "Support",
+          "summary": "lusanyuss@gmail.com",
+          "sections": [
+            {
+              "title": "Contact us",
+              "paragraphs": [
+                "Email lusanyuss@gmail.com with the problem, device model, OS and app version, and reproduction steps.",
+                "Do not send passwords, verification codes, cookies, identity tokens or unnecessary private media. Email is sent only when you choose; the app does not automatically upload diagnostics."
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "zh": {
+      "name": "视频下载器",
+      "hub": "隐私与服务说明",
+      "intro": "了解本版的数据处理、使用规则和联系渠道。",
+      "documents": {
+        "privacy": {
+          "title": "隐私政策",
+          "summary": "数据在何处处理，如何保留和清理。",
+          "sections": [
+            {
+              "title": "1. 提供者与本机处理",
+              "paragraphs": [
+                "视频下载器由北京晓目标科技有限公司提供。隐私联系邮箱：lusanyuss@gmail.com。",
+                "应用在设备上分析支持的媒体链接，将下载视频保存在本机。网站和媒体服务器会收到展示网页、分析链接及传输文件所需的网络请求；它们各自的 Cookie 和隐私政策适用。"
+              ]
+            },
+            {
+              "title": "2. 网页会话与历史",
+              "paragraphs": [
+                "Android 解析和下载使用本应用浏览器中匹配站点的 Cookie 和浏览器标识。会话快照、近期网址及网页标题通过设备系统密钥加密保存在本机。引擎操作所需的私有临时 Cookie 文件在操作后删除，中断残留在下次初始化时清除；不导出其他浏览器的会话。"
+              ]
+            },
+            {
+              "title": "3. 可选身份认证",
+              "paragraphs": [
+                "当前 Android 版提供可选 Google 登录，使用账号标识、姓名和邮箱在本机展示身份，凭据由 Google SDK 管理。应用不请求 Gmail、网盘或通讯录权限，不接收 Google 密码，不向自有服务器发送身份令牌。主动退出偏好使用设备安全存储。本版尚未开放 iOS 登录。"
+              ]
+            },
+            {
+              "title": "4. 服务与购买",
+              "paragraphs": [
+                "我们不运营账号服务器、云同步或订单服务器，不将浏览记录、链接和视频上传到自有服务。统计、广告及崩溃上报未开启；会员销售目前关闭。未来开放商店购买前会展示价格及处理规则，商店负责付款资料，应用在设备核验商店权益。应用登录身份与商店购买身份相互独立。"
+              ]
+            },
+            {
+              "title": "5. 保留与自主选择",
+              "paragraphs": [
+                "本机记录保留至你删除或卸载应用，系统存储和备份行为可能影响保留情况。可在首页清除近期搜索，在应用存储功能中删除视频或任务，在账号页退出或在“隐私与授权”撤销 Google 授权；这不会删除下载文件或你的 Google 账号。卸载前请导出重要文件。"
+              ]
+            },
+            {
+              "title": "6. 支持与第三方处理",
+              "paragraphs": [
+                "你主动向lusanyuss@gmail.com发送邮件时，我们会收到你选择提供的信息，并用来处理请求。不要发送凭据或不必要的私人文件；可询问或申请删除支持往来。Google、访问的网站、操作系统和静态网站托管方依据各自政策处理网络与安全信息。本网站没有脚本、统计或收集表单。"
+              ]
+            }
+          ]
+        },
+        "terms": {
+          "title": "服务条款",
+          "summary": "功能范围、使用规则与当前收费状态。",
+          "sections": [
+            {
+              "title": "1. 服务",
+              "paragraphs": [
+                "仅处理、保存和分享你拥有或已获授权使用的媒体，并遵守来源服务的条款。链接、格式支持和设备能力可能发生变化。"
+              ]
+            },
+            {
+              "title": "2. 网站限制与身份",
+              "paragraphs": [
+                "应用禁止分析或下载 YouTube、SoundCloud 和 Spotify 内容。其他网站也可能设置访问或版权限制。登录可选，不授予内容权利，不替你登录网站，不同步文件或跨商店转移购买；不支持、受保护、直播或私有媒体可能无法获取。"
+              ]
+            },
+            {
+              "title": "3. 本地文件",
+              "paragraphs": [
+                "请备份重要文件。处理可能改变大小、画质、元数据或兼容性；丢弃原片前请检查结果。本地结果不是云备份。"
+              ]
+            },
+            {
+              "title": "4. 收费与可用性",
+              "paragraphs": [
+                "本版会员销售关闭，不出售付费会员。商店上架及平台能力以实际状态为准，公开本协议不代表已经通过商店审核。"
+              ]
+            },
+            {
+              "title": "5. 支持与更新",
+              "paragraphs": [
+                "支持及隐私请求请联系lusanyuss@gmail.com。服务或数据处理变化时，我们会更新相关说明。"
+              ]
+            }
+          ]
+        },
+        "deletion": {
+          "title": "数据管理",
+          "summary": "管理本机数据、登录授权与支持请求。",
+          "sections": [
+            {
+              "title": "本机数据",
+              "paragraphs": [
+                "应用不运营云端账号库。通过应用内功能清理本机记录和应用自有文件，卸载前导出重要结果。"
+              ]
+            },
+            {
+              "title": "授权与请求",
+              "paragraphs": [
+                "可在账号页退出并在“隐私与授权”撤销 Google 授权；不会删除下载文件或 Google 账号。",
+                "联系 lusanyuss@gmail.com 处理支持往来和隐私请求。"
+              ]
+            }
+          ]
+        },
+        "support": {
+          "title": "联系支持",
+          "summary": "lusanyuss@gmail.com",
+          "sections": [
+            {
+              "title": "联系我们",
+              "paragraphs": [
+                "请向lusanyuss@gmail.com发送问题、设备型号、系统和应用版本及复现步骤。",
+                "不要发送密码、验证码、Cookie、身份令牌或不必要的私人媒体。邮件由你主动发送，不自动上传诊断信息。"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
