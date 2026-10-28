@@ -1,5 +1,7 @@
 import html
+import hashlib
 import json
+import shutil
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit
@@ -38,6 +40,14 @@ for name in ids:
 (out / 'index.html').write_text(root_html, encoding='utf-8')
 (out / 'styles.css').write_bytes((root / 'styles.css').read_bytes())
 (out / '.nojekyll').write_text('', encoding='utf-8')
+review = root / 'review'
+provenance = json.loads((review / 'provenance.json').read_text(encoding='utf-8'))
+sample = review / 'authorized-sample.mp4'
+assert provenance['thirdPartyMediaUsed'] is False and provenance['personalDataUsed'] is False
+assert hashlib.sha256(sample.read_bytes()).hexdigest() == provenance['sha256']
+(out / 'review').mkdir(exist_ok=True)
+for name in ('index.html', 'authorized-sample.mp4', 'provenance.json'):
+    shutil.copyfile(review / name, out / 'review' / name)
 
 class Links(HTMLParser):
     def handle_starttag(self, tag, attrs):
@@ -55,11 +65,11 @@ class Links(HTMLParser):
                 assert target.is_relative_to(out.resolve()), value
                 assert (target / 'index.html' if target.is_dir() else target).is_file(), value
 pages = list(out.rglob('*.html'))
-assert len(pages) == 11, len(pages)
+assert len(pages) == 12, len(pages)
 for file in pages:
     body = file.read_text(encoding='utf-8')
     assert data['operator'] in body and data['email'] in body
     checker = Links()
     checker.file = file
     checker.feed(body)
-print('Built and checked 11 bilingual pages, local links, provider and contact; no scripts or forms.')
+print('Built and checked 11 bilingual document pages plus the owned review fixture; links, provenance, provider and contact verified; no scripts or forms.')

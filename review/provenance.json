@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-25",
+  "file": "authorized-sample.mp4",
+  "sha256": "8945b691af658c73af44a7d56334abdb0eab2a7585c722f4df4253f7c8e2c7ab",
+  "bytes": 1024143,
+  "durationSeconds": 6,
+  "width": 1280,
+  "height": 720,
+  "audio": false,
+  "generator": "local FFmpeg lavfi testsrc2 -> H.264/yuv420p/faststart",
+  "thirdPartyMediaUsed": false,
+  "personalDataUsed": false,
+  "publicHttpsReviewUrl": "https://lusanyuss.github.io/videodown-legal/review/",
+  "scope": "Permission covers this generated fixture only; it does not authorize downloading from other providers."
+}
