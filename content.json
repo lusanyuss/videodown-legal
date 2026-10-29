@@ -1,5 +1,5 @@
 {
-  "operator": "北京晓目标科技有限公司",
+  "operator": "lu sanyu",
   "email": "lusanyuss@gmail.com",
   "languages": {
     "en": {
@@ -9,17 +9,17 @@
       "documents": {
         "privacy": {
           "title": "Privacy policy",
-          "summary": "Local media, optional Google services, membership and text feedback.",
+          "summary": "Local media, advertising, one-time ad removal and anonymous text feedback.",
           "sections": [
             {
               "title": "Privacy and data choices",
               "paragraphs": [
-                "Video Downloader is provided by 北京晓目标科技有限公司. Privacy and deletion requests: lusanyuss@gmail.com.",
-                "Videos, download records and encrypted browser sessions remain on this device. Websites and media servers receive the requests needed for browsing and downloads under their own policies. Optional Google sign-in is separate from local use and store membership. We do not upload your browsing addresses, video names, files, cookies or purchase tokens to analytics or feedback.",
-                "Free use may show an AdMob banner in the local library. Google may process IP addresses, device identifiers, ad interaction and diagnostic information for advertising, fraud prevention and measurement under its policies. Advertising consent and required privacy options are handled by Google UMP. Verified monthly or lifetime membership removes all in-app advertising and download-count limits; website advertising is outside this entitlement. Purchase prices come from Google Play. Payment information is handled by the store. Protected entitlement hints can be used offline; successful store refreshes reconcile expiration and revocation. Offline operation cannot detect refunds in realtime.",
+                "Video Downloader is provided by lu sanyu. Privacy and deletion requests: lusanyuss@gmail.com.",
+                "Videos, download records and encrypted browser sessions remain on this device. Browsing and downloads send necessary requests to the websites you choose, under their policies. The app has no login or registration. We do not send browsing addresses, video names, files, cookies or purchase tokens to analytics or feedback.",
+                "Free use may show AdMob advertising on native app screens. Google may process IP addresses, device identifiers, ad interactions and diagnostics for advertising, measurement and fraud prevention. Google UMP handles advertising consent and privacy options. A verified one-time purchase removes all in-app ads, including future app placements. Website advertising is not included. The store handles payment details and displays the actual price. Verified ad removal works offline; successful store queries reconcile refunds and revocations.",
                 "Firebase Analytics and Crashlytics are independently off by default. You can opt in or withdraw in Privacy choices. Analytics receives basic usage and whitelisted operation results. Dart errors submitted by the app use fixed error codes. Native SDK reports may include technical crash context. We do not deliberately attach media or webpage content. Turning off a choice stops future data collection; it does not automatically erase data already received by Google.",
                 "If you choose Send feedback, Firebase Anonymous Authentication creates an identifier without registration. Only your entered text, optional email, anonymous identifier, app/build version, device model, OS and language are sent over encrypted transport to Firestore. No files or business content are attached. Feedback is retained for up to 180 days and then manually deleted; you can request earlier deletion with the submission reference by emailing the contact above. Anonymous identity and abuse-prevention records are covered by this policy; anonymous does not mean no data is collected.",
-                "Remove local videos, tasks and history in the app. Sign out or revoke optional Google authorization without deleting videos. Store subscriptions can be managed in Google Play; uninstalling does not cancel them. For access or deletion of support, feedback or previously collected diagnostics, contact us. Public policy pages describe Google processing, retention and your choices in more detail."
+                "You can delete local videos, tasks and history in the app. For deletion of feedback, support records or previously collected diagnostics, contact lusanyuss@gmail.com. No app account is created. Anonymous feedback identifiers are described above."
               ]
             },
             {
@@ -48,9 +48,9 @@
               "title": "Terms of use",
               "paragraphs": [
                 "1. Service\nUse the app only for media you own or have permission to process, save and share. Respect the source service’s terms. Links, supported formats and device capabilities can change.",
-                "2. Website restrictions and identity\nYouTube, SoundCloud and Spotify analysis and downloading are blocked. Other websites may impose access and copyright restrictions. Sign-in is optional; it does not grant content rights, sign you into websites, synchronize files or transfer purchases between stores. Unsupported, protected, live or private media may be unavailable.",
+                "2. Website restrictions\nAnalysis and downloading from YouTube, SoundCloud and Spotify are blocked. Other websites may impose access or copyright restrictions. The app does not create accounts or sign you into websites. Unsupported, protected, live or private media may be unavailable.",
                 "3. Local files\nKeep backups of important files. Processing may change size, quality, metadata or compatibility. Review the result before discarding originals. Local results are not a cloud backup.",
-                "4. Charges and availability\nFree use includes 3 downloads per day and a banner in the local library. When offered by the store, monthly and lifetime memberships grant unlimited download count and remove in-app ads. The store shows the actual localized price before purchase. Monthly subscriptions renew automatically until canceled through the store; uninstalling does not cancel them. Lifetime is a one-time purchase. Upgrading to lifetime does not automatically cancel an existing subscription. Restore purchases with the same store account. Refunds and revocations follow store rules; offline verification cannot detect them immediately. Membership does not remove website advertising, site restrictions or grant content rights. Unconfigured or unavailable products cannot be purchased. Store approval and availability are separate from these documents.",
+                "4. Charges and availability\nBrowsing, downloads and local playback are free, without a daily download-count limit. An optional one-time purchase removes all in-app advertising. There is no subscription or automatic renewal. The store displays the actual localized price before purchase. Restore with the same store account. Refunds and revocations follow store rules; offline use cannot detect them immediately. Ad removal does not remove website ads, bypass site restrictions or grant content rights. Unavailable products cannot be purchased.",
                 "5. Contact and updates\nFor support or privacy requests, contact lusanyuss@gmail.com. We update these documents when the service or data processing changes."
               ]
             }
@@ -58,7 +58,7 @@
         },
         "deletion": {
           "title": "Manage your data",
-          "summary": "Manage local data, sign-in access and support requests.",
+          "summary": "Manage local data, anonymous feedback and support requests.",
           "sections": [
             {
               "title": "Local data",
@@ -69,7 +69,6 @@
             {
               "title": "Access and requests",
               "paragraphs": [
-                "Sign out from Account and revoke Google access in Privacy & access. This does not delete downloaded files or the Google Account.",
                 "Contact lusanyuss@gmail.com for privacy requests and support correspondence."
               ]
             },
@@ -103,17 +102,17 @@
       "documents": {
         "privacy": {
           "title": "隐私政策",
-          "summary": "本地媒体、可选 Google 服务、会员与文字反馈。",
+          "summary": "本地媒体、广告、一次性去广告和匿名文字反馈。",
           "sections": [
             {
               "title": "隐私与数据选择",
               "paragraphs": [
-                "视频下载器由北京晓目标科技有限公司提供。隐私及删除申请邮箱：lusanyuss@gmail.com。",
-                "视频、下载记录及加密浏览会话保存在本机。浏览和下载会向你选择的网站、媒体服务器发出必要请求，适用对方政策。Google 登录为可选，与本地使用和商店会员分别管理。我们不会把网址、视频名称、文件、Cookie 或购买令牌上传到统计或反馈服务。",
-                "免费用户可能在本地库看到 AdMob 横幅。Google 可能按其政策处理 IP 地址、设备标识、广告交互及诊断信息，用于广告、防作弊和衡量。广告同意及必要的隐私选项由 Google UMP 管理。已核验的月会员或终身会员享有不限下载次数、移除全部应用内广告的权益，不包含网站自身广告。实际价格来自 Google Play，付款资料由商店处理。受保护的权益提示可离线使用，成功查询商店后核对到期或撤销；离线时无法实时识别退款。",
+                "视频下载器由lu sanyu提供。隐私及删除申请邮箱：lusanyuss@gmail.com。",
+                "视频、下载记录及加密浏览会话保存在本机。浏览和下载会向你选择的网站发出必要请求，适用对方政策。应用不提供登录或注册。我们不会把网址、视频名称、文件、Cookie 或购买令牌发送到统计或反馈服务。",
+                "免费使用时，应用原生页面可能展示 AdMob 广告。Google 可能处理 IP 地址、设备标识、广告交互和诊断信息，用于广告、衡量及防作弊。广告同意和隐私选项由 Google UMP 管理。核验通过的一次性购买会移除全部应用内广告，也覆盖后续新增的应用内广告位置，不包含网站自身广告。商店处理付款资料并显示实际价格。已核验的去广告权益可离线使用，成功查询商店后会核对退款和撤销。",
                 "Firebase Analytics 使用统计和 Crashlytics 崩溃报告分别默认关闭，可在“隐私选择”中开启或撤回。统计仅包含基础使用情况及白名单操作结果；App 主动发送的 Dart 异常使用固定错误码；原生 SDK 报告可能含技术诊断上下文，我们不主动附加媒体或网页内容。撤回会停止后续采集，不会自动删除 Google 已收到的数据。",
                 "主动提交文字反馈时，Firebase 匿名认证会生成无需注册的标识，仅通过加密传输发送所填文字、选填邮箱、匿名标识、应用及构建版本、设备型号、系统和语言到 Firestore，不附加文件或业务内容。反馈最多保留 180 天后人工删除，也可凭提交编号邮件申请提前删除。匿名标识和限频记录同样属于本政策范围；匿名不等于不采集数据。",
-                "可在应用内删除本地视频、任务及历史记录；退出或撤销可选 Google 授权不会删除视频。订阅请在 Google Play 管理，卸载应用不会取消续费。申请查阅或删除反馈、支持记录或已采集诊断数据，请联系我们。公开政策页提供 Google 处理、保留及用户选择的进一步说明。"
+                "可在应用内删除本地视频、任务和历史记录。申请删除反馈、支持记录或已采集诊断数据，请联系 lusanyuss@gmail.com。应用不创建用户账号，匿名反馈标识见前述说明。"
               ]
             },
             {
@@ -142,9 +141,9 @@
               "title": "使用条款",
               "paragraphs": [
                 "1. 服务\n仅处理、保存和分享你拥有或已获授权使用的媒体，并遵守来源服务的条款。链接、格式支持和设备能力可能发生变化。",
-                "2. 网站限制与身份\n应用禁止分析或下载 YouTube、SoundCloud 和 Spotify 内容。其他网站也可能设置访问或版权限制。登录可选，不授予内容权利，不替你登录网站，不同步文件或跨商店转移购买；不支持、受保护、直播或私有媒体可能无法获取。",
+                "2. 网站限制\n应用禁止分析或下载 YouTube、SoundCloud 和 Spotify 内容。其他网站也可能设置访问或版权限制。应用不创建用户账号，也不替你登录网站。不支持、受保护、直播或私有媒体可能无法获取。",
                 "3. 本地文件\n请备份重要文件。处理可能改变大小、画质、元数据或兼容性；丢弃原片前请检查结果。本地结果不是云备份。",
-                "4. 收费与可用性\n免费每天可下载 3 次，本地库可能展示横幅。商店开放销售时，月会员和终身会员均不限下载次数并移除应用内广告，实际本地化价格在付款前由商店显示。月度订阅自动续费，需在商店取消，卸载不会取消续费；终身为一次付款。购买终身不会自动取消已有订阅。请使用同一商店账号恢复购买。退款与撤销遵守商店规则，离线时不能立即检测。会员不移除网站广告、不解除网站限制，也不授予内容使用权。未配置或暂不可用商品不发起购买。公开本协议不代表已通过商店审核。",
+                "4. 收费与可用性\n浏览、下载和本地播放免费，不限制每日下载次数。可选的一次性购买仅用于移除全部应用内广告，没有订阅或自动续费。实际本地化价格由商店在付款前显示；重装或换机请用同一商店账号恢复购买。退款和撤销遵守商店规则，离线时不能立即检测。去广告不移除网站广告、不解除网站限制，也不授予内容使用权。暂不可用的商品无法购买。",
                 "5. 支持与更新\n支持及隐私请求请联系lusanyuss@gmail.com。服务或数据处理变化时，我们会更新相关说明。"
               ]
             }
@@ -152,19 +151,12 @@
         },
         "deletion": {
           "title": "数据管理",
-          "summary": "管理本机数据、登录授权与支持请求。",
+          "summary": "管理本机数据、匿名反馈与支持请求。",
           "sections": [
             {
               "title": "本机数据",
               "paragraphs": [
                 "本地使用无需注册。提交文字反馈时会创建 Firebase 匿名标识。可通过应用内功能清理本机记录和应用自有文件，卸载前请导出重要结果。"
-              ]
-            },
-            {
-              "title": "授权与请求",
-              "paragraphs": [
-                "可在账号页退出并在“隐私与授权”撤销 Google 授权；不会删除下载文件或 Google 账号。",
-                "联系 lusanyuss@gmail.com 处理支持往来和隐私请求。"
               ]
             },
             {
