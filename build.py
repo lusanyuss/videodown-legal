@@ -48,6 +48,12 @@ assert hashlib.sha256(sample.read_bytes()).hexdigest() == provenance['sha256']
 (out / 'review').mkdir(exist_ok=True)
 for name in ('index.html', 'authorized-sample.mp4', 'provenance.json'):
     shutil.copyfile(review / name, out / 'review' / name)
+foreground = review / 'foreground-service'
+fgs_provenance = json.loads((foreground / 'provenance.json').read_text(encoding='utf-8'))
+assert hashlib.sha256((foreground / 'demo-10007.mp4').read_bytes()).hexdigest() == fgs_provenance['sha256']
+(out / 'review/foreground-service').mkdir(exist_ok=True)
+for name in ('index.html', 'demo-10007.mp4', 'captions-en.vtt', 'provenance.json'):
+    shutil.copyfile(foreground / name, out / 'review/foreground-service' / name)
 
 class Links(HTMLParser):
     def handle_starttag(self, tag, attrs):
@@ -65,11 +71,11 @@ class Links(HTMLParser):
                 assert target.is_relative_to(out.resolve()), value
                 assert (target / 'index.html' if target.is_dir() else target).is_file(), value
 pages = list(out.rglob('*.html'))
-assert len(pages) == 12, len(pages)
+assert len(pages) == 13, len(pages)
 for file in pages:
     body = file.read_text(encoding='utf-8')
     assert data['operator'] in body and data['email'] in body
     checker = Links()
     checker.file = file
     checker.feed(body)
-print('Built and checked 11 bilingual document pages plus the owned review fixture; links, provenance, provider and contact verified; no scripts or forms.')
+print('Built and checked 11 bilingual document pages, the owned review fixture and foreground-service demonstration; links, provenance, provider and contact verified; no scripts or forms.')

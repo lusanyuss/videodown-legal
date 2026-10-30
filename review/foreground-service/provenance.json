@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-30",
+  "packageName": "com.lusanyuss.myvideodown",
+  "version": "1.1.4",
+  "build": 10007,
+  "apkSha256": "53a2f8645809a0e9a9e6000994173dfeeb2c174eb24bfcddda71177031aab70d",
+  "sha256": "0c4604b57f3c331948b77e4663a3d1de917b9c2c2e5c27d74336487a75ff29d6",
+  "bytes": 685121,
+  "device": "Xiaomi Mi MIX 2 / Android 9 / API 28",
+  "source": "Actual ADB screenrecord; UI operated through native scrcpy window",
+  "media": "Developer-owned six-second 720p silent H.264 test pattern",
+  "syntheticInterface": false,
+  "thirdPartyMediaUsed": false,
+  "personalContentIncluded": false,
+  "editing": "Chronological trims 0-60, 88-98, 140-165 seconds from the download recording, then 0-8 seconds from completion. Notification crop x40/y1168/w1000/h248 excludes unrelated notifications; scale and black padding only.",
+  "rawRecordingSha256": {
+    "VideoDownloader-10007-fgs-final.mp4": "47f0a47c6ee88ee267d5c255bdcad5a2d5ba8fa008353b0f8961dd0c9a5ee6a9",
+    "VideoDownloader-10007-fgs-completed.mp4": "e73b6c7eac7ae18252d63975c3e50e596a648ee9b3d40335e04f18a1f77057e6"
+  },
+  "testServerBytesPerSecond": 12288,
+  "durationSeconds": 103
+}

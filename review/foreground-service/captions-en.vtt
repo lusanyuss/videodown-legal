@@ -1,0 +1,14 @@
+WEBVTT
+
+00:00.000 --> 01:00.000
+The user starts an authorized download and pauses it in the app.
+
+01:00.000 --> 01:10.000
+The user resumes the download.
+
+01:10.000 --> 01:35.000
+Actual ongoing download notification while the app is in the background.
+This crop excludes unrelated notifications.
+
+01:35.000 --> 01:43.000
+The completed file appears in the local library.
