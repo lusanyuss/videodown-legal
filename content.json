@@ -15,12 +15,14 @@
               "title": "Privacy and data choices",
               "paragraphs": [
                 "Video Downloader is provided by lu sanyu. Privacy and deletion requests: lusanyuss@gmail.com.",
+                "The app may ask you to relax system battery optimization to help downloads you start continue with the screen off. This choice is optional; declining does not block use. The authorization state and prompt history stay on this device and are not uploaded. Other device power restrictions may still apply.",
                 "Videos, download records and encrypted browser sessions remain on this device. Browsing and downloads send necessary requests to the websites you choose, under their policies. The app has no login or registration. We do not send browsing addresses, video names, files, cookies or purchase tokens to analytics or feedback.",
                 "Free use may show AdMob advertising on native app screens. Google may process IP addresses, device identifiers, ad interactions and diagnostics for advertising, measurement and fraud prevention. Google UMP handles advertising consent and privacy options. A verified one-time purchase removes all in-app ads, including future app placements. Website advertising is not included. The store handles payment details and displays the actual price. Verified ad removal works offline; successful store queries reconcile refunds and revocations.",
                 "Firebase Analytics and Crashlytics are independently off by default. You can opt in or withdraw in Privacy choices. Analytics receives basic usage and whitelisted operation results. Dart errors submitted by the app use fixed error codes. Native SDK reports may include technical crash context. We do not deliberately attach media or webpage content. Turning off a choice stops future data collection; it does not automatically erase data already received by Google.",
                 "If you choose Send feedback, Firebase Anonymous Authentication creates an identifier without registration. Only your entered text, optional email, anonymous identifier, app/build version, device model, OS and language are sent over encrypted transport to Firestore. No files or business content are attached. Feedback is retained for up to 180 days and then manually deleted; you can request earlier deletion with the submission reference by emailing the contact above. Anonymous identity and abuse-prevention records are covered by this policy; anonymous does not mean no data is collected.",
                 "You can delete local videos, tasks and history in the app. For deletion of feedback, support records or previously collected diagnostics, contact lusanyuss@gmail.com. No app account is created. Anonymous feedback identifiers are described above.",
-                "This app is intended for users aged 13 and older and is not directed to children under 13. We do not collect a date of birth. App ads request general-audience content, non-personalized ads and the stricter under-age-of-consent treatment for all users. Advertising availability may vary by region."
+                "This app is intended for users aged 13 and older and is not directed to children under 13. We do not collect a date of birth. App ads request general-audience content, non-personalized ads and the stricter under-age-of-consent treatment for all users. Advertising availability may vary by region.",
+                "App advertising may include compact banners on native screens, image-only native cards in Downloaded and Me, an interstitial at a natural break after local playback, and an app-open ad only during startup loading. App ads do not overlay website browsing or video playback. Local thumbnail previews and the app's ad-frequency counters stay on this device. A verified ad-removal purchase disables every app ad format."
               ]
             },
             {
@@ -109,12 +111,14 @@
               "title": "隐私与数据选择",
               "paragraphs": [
                 "视频下载器由lu sanyu提供。隐私及删除申请邮箱：lusanyuss@gmail.com。",
+                "应用可能请求放宽系统电池优化，帮助你主动开始的下载在熄屏后继续。此设置可选，拒绝不阻止使用；授权状态和申请历史只保存在本机，不会上传。其他设备省电限制仍可能影响下载。",
                 "视频、下载记录及加密浏览会话保存在本机。浏览和下载会向你选择的网站发出必要请求，适用对方政策。应用不提供登录或注册。我们不会把网址、视频名称、文件、Cookie 或购买令牌发送到统计或反馈服务。",
                 "免费使用时，应用原生页面可能展示 AdMob 广告。Google 可能处理 IP 地址、设备标识、广告交互和诊断信息，用于广告、衡量及防作弊。广告同意和隐私选项由 Google UMP 管理。核验通过的一次性购买会移除全部应用内广告，也覆盖后续新增的应用内广告位置，不包含网站自身广告。商店处理付款资料并显示实际价格。已核验的去广告权益可离线使用，成功查询商店后会核对退款和撤销。",
                 "Firebase Analytics 使用统计和 Crashlytics 崩溃报告分别默认关闭，可在“隐私选择”中开启或撤回。统计仅包含基础使用情况及白名单操作结果；App 主动发送的 Dart 异常使用固定错误码；原生 SDK 报告可能含技术诊断上下文，我们不主动附加媒体或网页内容。撤回会停止后续采集，不会自动删除 Google 已收到的数据。",
                 "主动提交文字反馈时，Firebase 匿名认证会生成无需注册的标识，仅通过加密传输发送所填文字、选填邮箱、匿名标识、应用及构建版本、设备型号、系统和语言到 Firestore，不附加文件或业务内容。反馈最多保留 180 天后人工删除，也可凭提交编号邮件申请提前删除。匿名标识和限频记录同样属于本政策范围；匿名不等于不采集数据。",
                 "可在应用内删除本地视频、任务和历史记录。申请删除反馈、支持记录或已采集诊断数据，请联系 lusanyuss@gmail.com。应用不创建用户账号，匿名反馈标识见前述说明。",
-                "本应用面向13岁及以上用户，不面向13岁以下儿童。我们不收集出生日期。对所有用户，应用内广告均请求通用级别内容、非个性化广告，并采用更严格的未达同意年龄保护设置。广告可用性可能因地区而异。"
+                "本应用面向13岁及以上用户，不面向13岁以下儿童。我们不收集出生日期。对所有用户，应用内广告均请求通用级别内容、非个性化广告，并采用更严格的未达同意年龄保护设置。广告可用性可能因地区而异。",
+                "应用内广告可能包括原生页面的紧凑横幅、已下载及我的页面的图片原生广告、本地播放结束返回时的插屏，以及仅在启动加载阶段显示的开屏广告。应用广告不会覆盖网页浏览或视频播放。本地视频预览图及应用自身的广告频控记录仅保存在本机。已核验的去广告购买会关闭所有应用广告类型。"
               ]
             },
             {
