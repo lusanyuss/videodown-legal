@@ -1,0 +1,76 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: #143433;
+  background: #f4faf8;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; font-size: 17px; line-height: 1.6; }
+a { color: #075953; text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #0c766b; outline-offset: 5px; }
+img { display: block; max-width: 100%; height: auto; }
+p { margin: 0 0 1rem; }
+.shell { width: min(1100px, calc(100% - 40px)); margin-inline: auto; }
+
+.skip {
+  position: absolute;
+  inset: 12px auto auto 12px;
+  padding: 10px 16px;
+  transform: translateY(-200%);
+  background: white;
+}
+
+.skip:focus { transform: none; z-index: 2; }
+.topbar { min-height: 80px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: #143433; text-decoration: none; font-weight: 750; }
+.brand img { border-radius: 8px; }
+
+.hero {
+  min-height: 450px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(185px, 285px);
+  align-items: center;
+  gap: clamp(28px, 6vw, 76px);
+  padding: clamp(24px, 5vw, 64px);
+  border: 1px solid #d6ebe5;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #fcfffd, #dff4ed);
+}
+
+h1, h2, h3 { line-height: 1.15; margin: 0 0 12px; }
+h1 { max-width: 12ch; font-size: clamp(40px, 6.6vw, 76px); letter-spacing: -.065em; }
+h2 { font-size: clamp(23px, 3.1vw, 32px); letter-spacing: -.025em; }
+h3 { font-size: 19px; }
+.hero-copy > p:first-of-type { max-width: 37ch; font-size: clamp(18px, 2vw, 22px); }
+.preview { width: min(100%, 250px); justify-self: center; border-radius: 18px; box-shadow: 0 16px 38px #285e5740; }
+
+.install {
+  display: inline-block;
+  margin: 6px 0 14px;
+  padding: 12px 21px;
+  border-radius: 10px;
+  color: white;
+  background: #085e54;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.install:hover { background: #064b43; }
+.details { font-size: 14px; color: #365750; }
+main section { margin: 44px 0; }
+.steps ol { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px 42px; margin: 22px 0 0; padding-inline-start: 22px; }
+.steps li { padding-inline-start: 5px; }
+.steps li::marker { color: #087468; font-weight: 700; }
+.steps p { margin: 0; }
+.sample { padding: clamp(20px, 4vw, 32px); border: 1px solid #d6ebe5; border-radius: 16px; background: white; }
+.sources { max-width: 74ch; }
+footer { padding-block: 24px; border-top: 1px solid #d6ebe5; font-size: 15px; }
+
+@media (max-width: 640px) {
+  .shell { width: calc(100% - 32px); }
+  .topbar { min-height: 68px; font-size: 14px; }
+  .hero, .steps ol { grid-template-columns: 1fr; }
+  .hero { min-height: 0; }
+  .preview { width: min(100%, 210px); }
+}
