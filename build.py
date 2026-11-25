@@ -39,6 +39,7 @@ for lang, text in data['languages'].items():
 root_html = (out / 'en/index.html').read_text(encoding='utf-8').replace('href="../styles.css"', 'href="styles.css"').replace('href="../zh/"', 'href="zh/"').replace('href="./"', 'href="en/"').replace('href="../app/"', 'href="app/"')
 for name in ids:
     root_html = root_html.replace(f'href="{name}/"', f'href="en/{name}/"')
+root_html = root_html.replace('</head>', '<meta name="google-site-verification" content="myOy9svGCERoUbFqA8Za7v3q-sGCAebV5nnLbi9IizQ">' + '</head>', 1)
 (out / 'index.html').write_text(root_html, encoding='utf-8')
 (out / 'styles.css').write_bytes((root / 'styles.css').read_bytes())
 (out / '.nojekyll').write_text('', encoding='utf-8')
